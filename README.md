@@ -193,32 +193,6 @@ http://localhost:5173
 
 ---
 
-# 🔧 Environment Variables
-
-## Backend `.env`
-
-```env
-# Database
-MONGODB_URI=mongodb://localhost:27017/interview-platform
-
-# Server
-PORT=5000
-NODE_ENV=development
-
-# JWT
-JWT_SECRET=your_secret_key
-JWT_EXPIRE=7d
-
-# Upload
-MAX_FILE_SIZE=10485760
-UPLOAD_DIR=./uploads
-
-# AI Service
-AI_API_KEY=your_api_key
-```
-
----
-
 # 🌐 API Endpoints
 
 ## Authentication Routes
@@ -410,12 +384,6 @@ git push origin feature-name
 ```
 
 5. Create Pull Request
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
